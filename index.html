@@ -171,11 +171,28 @@ referrerpolicy="no-referrer"
   </div>
 </address>
 </footer>
-<div class="backdrop is-hidden" data-modal >
+<div class="backdrop " data-modal > 
+  <!-- я удалил тут ис хиден!! -->
   <div class="modal">
   <button type="button" class="modal-btn" data-modal-close>
     <a href="" class="modal-link link"><svg class="modal-icon" width="17" height="17"><use href="./1/icons.svg#icon-close-black-18dp-2-1"></use></svg></a>
-  </button>      
+  </button>     
+  <p class="modal-title">Оставьте свои данные, мы вам перезвоним</p> 
+  <form>
+    <p class="moda-text">Имя
+    </p>
+    <input type="text" class="modal-input" name="user-name">
+    <p class="moda-text">Телефон
+    </p>
+    <input type="tel" class="modal-input" name="user-tel">
+    <p class="moda-text">Почта   
+    </p>
+    <input type="email" class="modal-input" name="user-email">
+    <p class="moda-text">Комментарий
+</p>
+    <input type="text" class="modal-coment" name="user-comment">
+    <button type="submit">Отправить </button>
+  </form>
     </div>
   </div>
 </main>

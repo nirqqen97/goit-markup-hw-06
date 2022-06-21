@@ -826,6 +826,7 @@ address {
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
+    padding: 40px;
 }
 .modal-btn{
     background-color: #FFFFFF;
@@ -853,4 +854,37 @@ address {
     visibility: hidden;
     opacity: 0;
     pointer-events: none;
+}
+.modal-title{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--main-text-color);
+    margin-bottom: 30px;
+}
+.modal-input{
+    width: 100%;
+    height: 40px;
+    border: 1px solid rgba(33, 33, 33, 0.2);
+    border-radius: 4px;
+}
+.modal-input:last-child{
+    margin-bottom: 0;
+}
+.moda-text{
+    color: var(--second-text-color);
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.16;
+    letter-spacing: 0.01em;
+    margin-top: 10px;
+    margin-bottom: 4px;
+}
+.modal-coment{
+    width: 100%;
+    height: 120px;
+    border: 1px solid rgba(33, 33, 33, 0.2);
+    border-radius: 4px;
 }
