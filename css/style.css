@@ -911,3 +911,23 @@ address {
 .modal-field{
     margin-bottom: 10px;
 }
+.check-text{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--second-text-color);
+    display: flex;
+}
+.check-text::before{
+    content: '';
+    width: 16px;
+    height: 15px;
+    border: 2px solid #212121;
+    border-radius: 3px; 
+    margin-right: 8px;
+}
+.modal-check:checked + .check-text::before{
+    background-color: var(--accent-color);
+    border-color: var(--accent-color);
+}
