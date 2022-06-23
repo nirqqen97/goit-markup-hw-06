@@ -171,27 +171,32 @@ referrerpolicy="no-referrer"
   </div>
 </address>
 </footer>
-<div class="backdrop is-hidden" data-modal > 
+<div class="backdrop " data-modal > 
   <!-- я удалил тут ис хиден!! -->
-  <div class="modal">
+  <div class="modal"> 
   <button type="button" class="modal-btn" data-modal-close>
     <a href="" class="modal-link link"><svg class="modal-icon" width="17" height="17"><use href="./1/icons.svg#icon-close-black-18dp-2-1"></use></svg></a>
   </button>     
   <p class="modal-title">Оставьте свои данные, мы вам перезвоним</p> 
   <form>
-    <p class="moda-text">Имя
-    </p>
+    <label class="moda-text">Ваше имя 
     <input type="text" class="modal-input" name="user-name" required>
-    <p class="moda-text">Телефон
-    </p>
+  </label>
+   <label class="moda-text">Ваше имя
     <input type="tel" class="modal-input" name="user-tel" required>
-    <p class="moda-text">Почта   
-    </p>
+  </label>
+   <label class="moda-text">Ваше имя
     <input type="email" class="modal-input" name="user-email" required>
-    <p class="moda-text">Комментарий
-</p>
-    <input type="text" class="modal-coment" placeholder="Введите текст" name="user-comment">
-    <button type="submit">Отправить </button>
+  </label>
+<label for="user-text" class="moda-text">Комментарий
+  <textarea name="user-text" id="user-text" class="modal-textarea" placeholder="Введите текст"></textarea>
+  <fieldset>
+    <legend>size</legend>
+    <label for="big">big</label>
+    <input type="radio" id="big" name="big">
+  </fieldset>
+  <button type="submit">Отправить</button>
+</label>
   </form>
     </div>
   </div>
