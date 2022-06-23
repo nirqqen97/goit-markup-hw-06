@@ -872,6 +872,7 @@ address {
     height: 40px;
     border: 1px solid rgba(33, 33, 33, 0.2);
     border-radius: 4px;
+    padding: 15px 0 15px 42px
 }
 .moda-text{
     color: var(--second-text-color);
@@ -879,8 +880,9 @@ address {
     font-size: 12px;
     line-height: 1.16;
     letter-spacing: 0.01em;
-    margin-bottom: 100px;
- 
+    display: block;
+    margin-bottom: 4px;
+
 }
 .modal-coment{
     width: 100%;
@@ -896,4 +898,16 @@ address {
     height: 120px;
     border: 1px solid rgba(33, 33, 33, 0.2);
     resize: none;
+}
+.modal-icons{
+    position: absolute;
+    left: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.input-wrap{
+    position: relative;
+}
+.modal-field{
+    margin-bottom: 10px;
 }
