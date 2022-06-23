@@ -483,7 +483,8 @@ body{
 /* ---------------------------------------------------------------------------------------PORTFOLIO-HERO------------------------------------------------------ */
 
 .porfolio-hero-item1:hover .prt-text,
-.porfolio-hero-item1:focus .prt-text{
+.porfolio-hero-item1:focus .prt-text,
+.prt-link:focus .prt-text{
     transform: translateY(0);
 }
 
@@ -871,9 +872,6 @@ address {
     height: 40px;
     border: 1px solid rgba(33, 33, 33, 0.2);
     border-radius: 4px;
-}
-.modal-input:not(:placeholder-shown){
-    border-color: rgba(33, 33, 33, 0.2);
 }
 .moda-text{
     color: var(--second-text-color);
