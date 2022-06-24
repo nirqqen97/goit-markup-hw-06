@@ -910,6 +910,7 @@ address {
 }
 .modal-field{
     margin-bottom: 10px;
+    
 }
 .check-text{
     font-weight: 400;
@@ -919,7 +920,7 @@ address {
     color: var(--second-text-color);
     display: flex;
 }
-.check-text::before{
+/* .check-text::before{
     content: '';
     width: 16px;
     height: 15px;
@@ -930,4 +931,11 @@ address {
 .modal-check:checked + .check-text::before{
     background-color: var(--accent-color);
     border-color: var(--accent-color);
+    background-image: url(../1/check.svg);
+    background-repeat: no-repeat;
+    background-position: center;
 }
+.modal-check:focus + .check-text::before{
+    background-color: var(--accent-color);
+} */
+/* добавить класс визуал-хижен */
