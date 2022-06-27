@@ -30,6 +30,18 @@ img{
     max-width: 100%;
     height: auto;
 }
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+  }
 .header{
     border: 1px solid #ECECEC;
 
@@ -934,8 +946,26 @@ address {
     background-image: url(../1/check.svg);
     background-repeat: no-repeat;
     background-position: center;
+    
 }
 .modal-check:focus + .check-text::before{
     background-color: var(--accent-color);
-} */
-/* добавить класс визуал-хижен */
+}
+
+/* /* добавить класс визуал-хижен */
+.check-text span{
+    width: 16px;
+    height: 15px;
+    border: 2px solid #212121;
+    border-radius: 3px; 
+    margin-right: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.check-icon{
+    fill: transparent;
+}
+.modal-field-com{
+    margin-bottom: 20px;
+} 

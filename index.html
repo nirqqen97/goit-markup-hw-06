@@ -191,16 +191,22 @@ referrerpolicy="no-referrer"
     <div class="modal-field">
    <label class="moda-text">Ваше имя</label>
     <input type="tel" class="modal-input" name="user-tel" required>
+    </div>
     <div class="modal-field">
    <label class="moda-text">Ваше имя</label>
     <input type="email" class="modal-input" name="user-email" required>
   </div>
-  <div class="modal-field">
+  <div class="modal-field-com">
 <label for="user-text" class="moda-text">Комментарий</label>
   <textarea name="user-text" id="user-text" class="modal-textarea" placeholder="Введите текст"></textarea>
+  </div>
   <div class="modal-field">
-    <input type="checkbox" name="privacy" value="true" class="modal-check" id="privacy">
-    <label for="privacy" class="check-text">Соглашаюсь с рассылкой и принимаю Условия договора</label>
+    <input type="checkbox" name="privacy" value="true" class="modal-check visually-hidden" id="privacy" >
+    <label for="privacy" class="check-text">
+      <span> <svg class="check-icon" width="11" height="8">
+        <use href="./1/icons.svg#icon-Vector-1"></use>
+      </svg></span>
+      Соглашаюсь с рассылкой и принимаю Условия договора</label>
   </div>
   </form>
   </div>
