@@ -91,6 +91,7 @@ referrerpolicy="no-referrer"
       <div class="main-wrap">
         <h3 class="team-item-title">Ольга Репина</h3>
         <p class="team-item-text" lang="en" >Frontend Developer
+        
           </p>
           <ul class="team-soc-list list">
             <li class="team-soc-item"><a href="" class="team-soc-link link"><svg class="team-soc-icon" width="20" height="20"><use href="./1/icons.svg#icon-instagram-2-2"></use></svg></a></li>
@@ -189,13 +190,23 @@ referrerpolicy="no-referrer"
     </div>
     </div>
     <div class="modal-field">
-   <label class="moda-text">Ваше имя</label>
-    <input type="tel" class="modal-input" name="user-tel" required>
+   <label class="moda-text">Телефон</label>
+   <div class="input-wrap">
+    <input type="text" class="modal-input" name="user-name" required>
+    <svg class="modal-icons" width="18" height="18">
+      <use href="./1/icons.svg#icon-phone-black-18dp-1"></use>
+    </svg>
+    </div>
     </div>
     <div class="modal-field">
-   <label class="moda-text">Ваше имя</label>
-    <input type="email" class="modal-input" name="user-email" required>
-  </div>
+   <label class="moda-text">Почта</label>
+   <div class="input-wrap">
+    <input type="text" class="modal-input" name="user-name" required>
+    <svg class="modal-icons" width="18" height="18">
+      <use href="./1/icons.svg#icon-email-black-18dp-1"></use>
+    </svg>
+    </div>
+    </div>
   <div class="modal-field-com">
 <label for="user-text" class="moda-text">Комментарий</label>
   <textarea name="user-text" id="user-text" class="modal-textarea" placeholder="Введите текст"></textarea>
@@ -203,10 +214,8 @@ referrerpolicy="no-referrer"
   <div class="modal-field">
     <input type="checkbox" name="privacy" value="true" class="modal-check visually-hidden" id="privacy" >
     <label for="privacy" class="check-text">
-      <span> <svg class="check-icon" width="11" height="8">
-        <use href="./1/icons.svg#icon-Vector-1"></use>
-      </svg></span>
-      Соглашаюсь с рассылкой и принимаю Условия договора</label>
+       
+      Соглашаюсь с рассылкой и принимаю <a href="" class="modal-doc"> Условия договора</a></label>
   </div>
   </form>
   </div>
