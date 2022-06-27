@@ -466,6 +466,9 @@ body{
         border: 1px solid #c5c5c5;
         border-top: 0     
     }
+    .team-item:first-child{
+        margin-left: 0;
+    }
     .team-div{
         padding-top: 30px;
         padding-bottom: 30px;
