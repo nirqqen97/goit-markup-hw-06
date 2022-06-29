@@ -725,7 +725,11 @@ address {
     background-color:transparent;
     padding-left: 10px;
     color: #FFFFFF;
-    
+    outline: none;
+}
+.footer-input:hover,
+.footer-input:focus{
+    border-color: var(--accent-color);
 }
 
 .team-soc-link-footer{
@@ -760,7 +764,7 @@ address {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #FFFFFF;
-    margin-bottom: 100px;
+    margin-bottom: 20px;
     
 }
 
