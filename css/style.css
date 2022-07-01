@@ -873,6 +873,7 @@ address {
 
 .footer-slogan{
     margin-left: 70px;
+
 }
 .footer-soc-icon{
     fill: #FFFFFF;
@@ -967,6 +968,7 @@ address {
     border-radius: 4px;
     padding: 15px 0 15px 42px;
     outline: transparent;
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .modal-input:focus{
     border-color: var(--accent-color);
@@ -1007,6 +1009,7 @@ address {
     letter-spacing: 0.01em; 
     color: rgba(117, 117, 117, 0.5);
     outline: transparent;
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .modal-textarea:hover,
 .modal-textarea:focus{
@@ -1021,6 +1024,7 @@ address {
     top: 50%;
     transform: translateY(-50%);
     fill: #212121;
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .input-wrap{
     position: relative;
@@ -1030,13 +1034,15 @@ address {
     
 }
 .check-text{
+    padding-left: 8px;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
-    color: var(--second-text-color);
+    color: #757575;
     display: flex;
     align-items: center;
+    
 }
  .check-text::before{
     content: "";
@@ -1052,11 +1058,10 @@ address {
     background-image: url(../1/check.svg);
     background-repeat: no-repeat;
     background-position: center;
-    
+    border: none;    
 }
 .modal-check:focus + .check-text::before{
-    background-color: var(--accent-color);
-    border-color: transparent;
+    border-color: var(--accent-color);
 }
 .modal-field-flex{
     display: flex;
